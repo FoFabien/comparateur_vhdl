@@ -1,0 +1,8 @@
+V3 3
+FL //narrhavas/fforest/tp_numerique/comparateur_vhdl/vhdl.vhd 2009/10/06.11:23:10 I.34
+EN work/comparateur 1254818112     FL //narrhavas/fforest/tp_numerique/comparateur_vhdl/vhdl.vhd \
+      PB ieee/std_logic_1164 1155947332 PH ieee/NUMERIC_STD 1155947343 \
+      PB ieee/STD_LOGIC_UNSIGNED 1155947338
+AR work/comparateur/equation 1254818113 \
+      FL //narrhavas/fforest/tp_numerique/comparateur_vhdl/vhdl.vhd \
+      EN work/comparateur 1254818112

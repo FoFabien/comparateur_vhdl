@@ -1,0 +1,43 @@
+m255
+13
+cModel Technology
+dH:\tp_numerique\comparateur_vhdl
+T_opt
+VC=j7O5i;L7egC;4ggeYDc3
+04 11 8 work comparateur equation 0
+o-quiet -auto_acc_if_foreign -work work
+tExplicit 1
+OE;O;6.2e;35
+Ecomparateur
+w1254820990
+DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+dH:\tp_numerique\comparateur_vhdl
+8vhdl.vhd
+Fvhdl.vhd
+l0
+L6
+VLoaRE<k>Rmz_KN>P@VGPL1
+OE;C;6.2e;35
+31
+o-explicit -93
+tExplicit 1
+Aequation
+DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work comparateur LoaRE<k>Rmz_KN>P@VGPL1
+l19
+L15
+V>=;T0RKb_n<][4X_AHHjR3
+OE;C;6.2e;35
+31
+M4 ieee std_logic_1164
+M3 ieee numeric_std
+M2 ieee std_logic_unsigned
+M1 ieee std_logic_arith
+o-explicit -93
+tExplicit 1

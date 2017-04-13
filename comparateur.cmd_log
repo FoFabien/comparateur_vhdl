@@ -1,0 +1,7 @@
+xst -ise "H:/tp_numerique/comparateur_vhdl/comparateur_vhdl.ise" -intstyle ise -ifn comparateur.xst -ofn comparateur.syr
+ngdbuild -ise "H:/tp_numerique/comparateur_vhdl/comparateur_vhdl.ise" -intstyle ise -dd _ngo -i -p xc9500 "comparateur.ngc" comparateur.ngd
+cpldfit -ise "H:/tp_numerique/comparateur_vhdl/comparateur_vhdl.ise" -intstyle ise -p xc9572-7-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 36 -pterms 25 -power std -localfbk -pinfbk comparateur.ngd
+XSLTProcess -ise "H:/tp_numerique/comparateur_vhdl/comparateur_vhdl.ise" comparateur_build.xml
+tsim -ise "H:/tp_numerique/comparateur_vhdl/comparateur_vhdl.ise" -intstyle ise comparateur comparateur.nga
+taengine -ise "H:/tp_numerique/comparateur_vhdl/comparateur_vhdl.ise" -intstyle ise -f comparateur -w --format html1 -l H:/tp_numerique/comparateur_vhdl/comparateur_html/tim/timing_report.htm
+hprep6 -ise "H:/tp_numerique/comparateur_vhdl/comparateur_vhdl.ise" -s IEEE1149 -n comparateur -i comparateur

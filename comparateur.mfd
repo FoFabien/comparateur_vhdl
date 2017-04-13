@@ -1,0 +1,35 @@
+MDF Database:  version 1.0
+MDF_INFO | comparateur | XC9572-7-PC44
+MACROCELL | 1 | 1 | S2_OBUF
+ATTRIBUTES | 396034 | 0
+INPUTS | 3 | N<3>  | N<1>  | N<2>
+INPUTP | 3 | 89 | 58 | 9
+EQ | 3 | 
+   S3 = !N<3> & N<2>
+	# !N<3> & N<1>
+	# N<3> & !N<2> & !N<1>;
+
+MACROCELL | 2 | 1 | S2_OBUF$BUF0
+ATTRIBUTES | 396034 | 0
+INPUTS | 3 | N<3>  | N<1>  | N<2>
+INPUTP | 3 | 89 | 58 | 9
+EQ | 3 | 
+   S2 = !N<3> & N<2>
+	# !N<3> & N<1>
+	# N<3> & !N<2> & !N<1>;
+
+MACROCELL | 0 | 1 | S2_OBUF$BUF1
+ATTRIBUTES | 396034 | 0
+INPUTS | 3 | N<3>  | N<1>  | N<2>
+INPUTP | 3 | 89 | 58 | 9
+EQ | 3 | 
+   S1 = !N<3> & N<2>
+	# !N<3> & N<1>
+	# N<3> & !N<2> & !N<1>;
+
+PIN | N<3> | 64 | 0 | N/A | 89 | 3 | 1 | 1 | 2 | 1 | 0 | 1
+PIN | N<2> | 64 | 0 | N/A | 9 | 3 | 1 | 1 | 2 | 1 | 0 | 1
+PIN | N<1> | 64 | 0 | N/A | 58 | 3 | 1 | 1 | 2 | 1 | 0 | 1
+PIN | S3 | 536871040 | 0 | N/A | 86
+PIN | S2 | 536871040 | 0 | N/A | 29
+PIN | S1 | 536871040 | 0 | N/A | 11
